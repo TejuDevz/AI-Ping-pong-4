@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+#instruction {
+  border: 1px solid white;
+}
+
+.start,
+.restart {
+  font-size: 18px;
+}
+
+.modal-dialog {
+  width: 90%;
+}
+
+.footer {
+  bottom: 0;
+  background-color: white;
+  color: black;
+  line-height: 3;
+}
+
+canvas {
+  border: 5px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px lightgrey;
+}
